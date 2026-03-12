@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>AllTheThings</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array/>
+	<key>WKApplication</key>
+	<true/>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>AllTheThings uses the microphone to record your spoken ground-truth annotations alongside sensor data.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>AllTheThings transcribes your spoken annotations on-device to create timestamped ground-truth labels for ML training.</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>AllTheThings reads heart rate and blood-oxygen data to include in your sensor data log.</string>
+	<key>NSMotionUsageDescription</key>
+	<string>AllTheThings records accelerometer, gyroscope, and attitude data for ML training and inference.</string>
+</dict>
+</plist>
